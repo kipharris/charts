@@ -2,13 +2,13 @@ apiVersion: v1
 entries:
   watson-banking-chatbot:
   - apiVersion: v1
-    created: 2018-10-05T10:56:34.036296-05:00
+    created: 2018-10-05T11:41:31.037808-05:00
     description: Banking chatbot sample from https://github.com/IBM/watson-banking-chatbot
     digest: 94c3a79b307ccdb2e24b47813d1017ad14051dc06d01acbc290369e6633d587b
     icon: https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png
     name: watson-banking-chatbot
     tillerVersion: '>=2.4.0'
     urls:
-    - watson-banking-chatbot-1.0.0.tgz
+    - https://raw.githubusercontent.com/kipharris/charts/master/watson-banking-chatbot-1.0.0.tgz
     version: 1.0.0
-generated: 2018-10-05T10:56:34.035504-05:00
+generated: 2018-10-05T11:41:31.035005-05:00
