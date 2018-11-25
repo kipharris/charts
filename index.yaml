@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   watson-banking-chatbot:
   - apiVersion: v1
-    created: 2018-10-05T11:41:31.037808-05:00
+    created: 2018-11-25T16:17:02.631635-06:00
     description: Banking chatbot sample from https://github.com/IBM/watson-banking-chatbot
     digest: 94c3a79b307ccdb2e24b47813d1017ad14051dc06d01acbc290369e6633d587b
     icon: https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png
@@ -11,4 +11,13 @@ entries:
     urls:
     - https://raw.githubusercontent.com/kipharris/charts/master/watson-banking-chatbot-1.0.0.tgz
     version: 1.0.0
-generated: 2018-10-05T11:41:31.035005-05:00
+  web:
+  - apiVersion: v1
+    created: 2018-11-25T16:17:02.631994-06:00
+    description: BlueCompute Web BFF app
+    digest: 4db8baf701d83b90525e155ac1578d4464de85a1cc68e0c79c9343baca52afbb
+    name: web
+    urls:
+    - https://raw.githubusercontent.com/kipharris/charts/master/web-0.2.0.tgz
+    version: 0.2.0
+generated: 2018-11-25T16:17:02.629057-06:00
