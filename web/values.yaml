@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: kipharris/bluecompute-web
-  tag: latest
+  repository: ibmcase/bluecompute-web
+  tag: 0.5.0
   pullPolicy: Always
 
 service:
