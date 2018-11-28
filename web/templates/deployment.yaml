@@ -1,0 +1,34 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: {{ template "web.fullname" . }}
+  labels:
+    {{- include "web.labels" . | indent 4 }}
+spec:
+  replicas: {{ .Values.replicaCount }}
+  template:
+    metadata:
+      labels:
+        {{- include "web.labels" . | indent 8 }}
+    spec:
+      containers:
+      - name: web
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        imagePullPolicy: "{{ .Values.image.pullPolicy }}"
+        ports:
+        - containerPort: {{ .Values.service.internalPort }}
+          protocol: TCP
+        volumeMounts:
+        - name: config-volume
+          mountPath: /StoreWebApp/config
+      volumes:
+      - name: config-volume
+        configMap:
+          name: {{ template "web.fullname" . }}-config
+          items:
+          - key: checks
+            path: checks
+          - key: default.json
+            path: default.json
+        resources:
+{{ toYaml .Values.resources | indent 10 }}
