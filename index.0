@@ -1,0 +1,32 @@
+apiVersion: v1
+entries:
+  gbf:
+  - apiVersion: v1
+    created: 2019-06-13T15:19:55.038725931-05:00
+    description: A Helm chart for Kubernetes
+    digest: 76f144e9dbe8db662a8c7ff5dca800c27c731b3df7c4d0c1311861687050e2d7
+    name: gbf
+    urls:
+    - https://raw.githubusercontent.com/kipharris/charts/master/gbf-0.1.0.tgz
+    version: 0.1.0
+  watson-banking-chatbot:
+  - apiVersion: v1
+    created: 2019-06-13T15:19:55.04309367-05:00
+    description: Banking chatbot sample from https://github.com/IBM/watson-banking-chatbot
+    digest: 94c3a79b307ccdb2e24b47813d1017ad14051dc06d01acbc290369e6633d587b
+    icon: https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png
+    name: watson-banking-chatbot
+    tillerVersion: '>=2.4.0'
+    urls:
+    - https://raw.githubusercontent.com/kipharris/charts/master/watson-banking-chatbot-1.0.0.tgz
+    version: 1.0.0
+  web:
+  - apiVersion: v1
+    created: 2019-06-13T15:19:55.044777648-05:00
+    description: BlueCompute Web BFF app
+    digest: 1687371a0c9622a351dcc0abbf90176a4398d7d53ab8347b6df6d1314710310d
+    name: web
+    urls:
+    - https://raw.githubusercontent.com/kipharris/charts/master/web-0.5.0.tgz
+    version: 0.5.0
+generated: 2019-06-13T15:19:55.035232402-05:00
