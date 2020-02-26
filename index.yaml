@@ -2,17 +2,24 @@ apiVersion: v1
 entries:
   stockbff-helm-wrapper:
   - apiVersion: v1
-    created: 2020-02-25T17:44:13.4272-06:00
+    created: 2020-02-26T16:16:51.670182-06:00
     digest: c024e7ead8f99b94d43d847dba97a1b43a94d3fb41fe294febba5f2d41508a67
     name: stockbff-helm-wrapper
     urls:
     - https://raw.githubusercontent.com/kipharris/charts/master/stockbff-helm-wrapper-3.0.20.tgz
     version: 3.0.20
   - apiVersion: v1
-    created: 2020-02-25T17:44:13.425866-06:00
+    created: 2020-02-26T16:16:51.668684-06:00
     digest: dbf290d717ee8bbae04b9b0b5835257414d979f0a88f34bdcdf966bf738813ca
     name: stockbff-helm-wrapper
     urls:
     - https://raw.githubusercontent.com/kipharris/charts/master/stockbff-helm-wrapper-1.0.20.tgz
     version: 1.0.20
-generated: 2020-02-25T17:44:13.416931-06:00
+  - apiVersion: v1
+    created: 2020-02-26T16:16:51.669119-06:00
+    digest: bf649eb5958298ca74505039c41bac75aa68bb610a802d1d65acb56ddd9814fd
+    name: stockbff-helm-wrapper
+    urls:
+    - https://raw.githubusercontent.com/kipharris/charts/master/stockbff-helm-wrapper-1.0.4.tgz
+    version: 1.0.4
+generated: 2020-02-26T16:16:51.666892-06:00
